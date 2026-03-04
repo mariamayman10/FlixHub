@@ -7,7 +7,7 @@ const AddWatchList = () => {
         className="mr-2"
         style={{ verticalAlign: "middle", color: "rgb(255, 210, 80)" }}
       >
-        Add to Watchlist{" "}
+        Add to Watchlist
       </span>
       <svg
         xmlns="http://www.w3.org/2000/svg"

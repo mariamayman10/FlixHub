@@ -337,7 +337,7 @@ const App = () => {
       const MovieList = JSON.parse(localStorage.getItem("Watchlist"));
       setWatchlist(MovieList);
     }
-  }, [SearchValue]);
+  }, [SearchValue, getMovieRequest]);
 
   const AddFavouriteMovie = (movie) => {
     const storedFavourites = JSON.parse(localStorage.getItem("Favourites"));
